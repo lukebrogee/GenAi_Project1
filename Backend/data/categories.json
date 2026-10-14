@@ -1,0 +1,62 @@
+[
+  {
+    "id": "dining",
+    "name": "Dining",
+    "color": "#f2a900",
+    "icon": "🍽️"
+  },
+  {
+    "id": "groceries",
+    "name": "Groceries",
+    "color": "#1a9a62",
+    "icon": "🛒"
+  },
+  {
+    "id": "travel",
+    "name": "Travel",
+    "color": "#14a3a0",
+    "icon": "✈️"
+  },
+  {
+    "id": "transport",
+    "name": "Transport",
+    "color": "#4a6580",
+    "icon": "🚗"
+  },
+  {
+    "id": "shopping",
+    "name": "Shopping",
+    "color": "#8b5cf6",
+    "icon": "🛍️"
+  },
+  {
+    "id": "entertainment",
+    "name": "Entertainment",
+    "color": "#e0568a",
+    "icon": "🎬"
+  },
+  {
+    "id": "utilities",
+    "name": "Utilities",
+    "color": "#3b82c4",
+    "icon": "💡"
+  },
+  {
+    "id": "health",
+    "name": "Health",
+    "color": "#d64545",
+    "icon": "❤️"
+  },
+  {
+    "id": "subscriptions",
+    "name": "Subscriptions",
+    "color": "#0b6e6e",
+    "icon": "🔁"
+  },
+  {
+    "id": "payment",
+    "name": "Payment",
+    "color": "#9fb1c3",
+    "icon": "💳"
+  }
+]

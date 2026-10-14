@@ -1,0 +1,44 @@
+[
+  {
+    "id": "amex",
+    "name": "American Express",
+    "initials": "AX",
+    "color": "#3b82c4",
+    "linkedByDefault": true
+  },
+  {
+    "id": "chase",
+    "name": "Chase",
+    "initials": "CH",
+    "color": "#0f8a8a",
+    "linkedByDefault": true
+  },
+  {
+    "id": "discover",
+    "name": "Discover",
+    "initials": "DI",
+    "color": "#f2a900",
+    "linkedByDefault": true
+  },
+  {
+    "id": "capitalone",
+    "name": "Capital One",
+    "initials": "CO",
+    "color": "#d64545",
+    "linkedByDefault": false
+  },
+  {
+    "id": "citi",
+    "name": "Citi",
+    "initials": "CI",
+    "color": "#8b5cf6",
+    "linkedByDefault": false
+  },
+  {
+    "id": "bofa",
+    "name": "Bank of America",
+    "initials": "BA",
+    "color": "#e0568a",
+    "linkedByDefault": false
+  }
+]

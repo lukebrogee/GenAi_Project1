@@ -1,0 +1,85 @@
+/* Cardfolio design tokens */
+:root {
+  /* Brand: deep ink navy + teal primary + amber accent */
+  --color-ink-900: #0b1f33;
+  --color-ink-800: #12304d;
+  --color-ink-700: #1d4468;
+  --color-ink-500: #4a6580;
+  --color-ink-300: #9fb1c3;
+
+  --color-primary-700: #0b6e6e;
+  --color-primary-600: #0f8a8a;
+  --color-primary-500: #14a3a0;
+  --color-primary-100: #d9f2f0;
+  --color-primary-50: #effaf9;
+
+  --color-accent-500: #f2a900;
+  --color-accent-400: #ffc233;
+  --color-accent-100: #fff1cc;
+
+  /* Status */
+  --color-positive: #1a9a62;
+  --color-negative: #d64545;
+
+  /* Surfaces */
+  --color-bg: #f2f6f8;
+  --color-surface: #ffffff;
+  --color-border: #dfe7ed;
+  --color-text: #12263a;
+  --color-text-muted: #5b7186;
+
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 18px;
+  --shadow-sm: 0 1px 2px rgba(11, 31, 51, 0.06);
+  --shadow-md: 0 8px 24px rgba(11, 31, 51, 0.07);
+
+  font-family: 'Manrope', Inter, 'Segoe UI', sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color: var(--color-text);
+  background: var(--color-bg);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background: var(--color-bg);
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: var(--color-ink-900);
+  letter-spacing: -0.02em;
+}
+
+button,
+input,
+select,
+a {
+  font: inherit;
+}
+
+:focus-visible {
+  outline: 3px solid var(--color-primary-500);
+  outline-offset: 2px;
+}
+
+#root {
+  min-height: 100vh;
+}
